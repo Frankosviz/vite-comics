@@ -1,7 +1,7 @@
 <template>
   <div class="fd-margin-black"></div>
-  <HeaderComponent />
-  <ContentComponent />
+  <HeaderComponent class="mb-4 mt-4"/>
+  <ContentComponent class="mb-4 mt-4"/>
   <MainComponent />
   <FollowUsComponent />
   <FooterComponent />

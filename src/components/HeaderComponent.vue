@@ -1,6 +1,6 @@
 <template>
-    <div class="container d-flex justify-content-between bg-white p-3">
-        <div>
+    <div class="container d-flex justify-content-between bg-white">
+        <div class="d-flex align-items-center justify-content-center">
             <img src="../../public/img/dc-logo.png" alt="Logo-Header">
         </div>
         <div>
@@ -27,7 +27,7 @@
 
 <style lang="scss" scoped>
     .container {
-        height: 80px;
+        height: 100px;
     }
 
     img{
@@ -36,7 +36,7 @@
     }
 
     ul {
-        line-height: 80px;
+        line-height: 100px;
     }
 
     li {
