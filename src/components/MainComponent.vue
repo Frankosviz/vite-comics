@@ -54,23 +54,22 @@ export default {
 
 <style lang="scss" scoped>
 .fd-style {
-    height: 150px;
+    height: 15vh;
     background-color: #0282F9;
 }
 
 .container {
-    height: 150px;
+    height: 15vh;
     background-color: #0282F9;
 }
 
 img {
     width: 50px;
-    height: 60px;
+    height: 50px;
 }
 
 p {
     color: white;
     margin: 0 auto;
-
 }
 </style>

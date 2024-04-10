@@ -27,7 +27,7 @@
 
 <style lang="scss" scoped>
     .container {
-        height: 100px;
+        height: 10vh;
     }
 
     img{
@@ -36,7 +36,7 @@
     }
 
     ul {
-        line-height: 100px;
+        line-height: 10vh;
     }
 
     li {

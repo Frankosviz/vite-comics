@@ -1,10 +1,12 @@
 <template>
   <div class="fd-margin-black"></div>
-  <HeaderComponent class="mb-4 mt-4"/>
-  <ContentComponent class=" mt-4"/>
+  <HeaderComponent/>
+  <ContentComponent />
   <MainComponent />
   <FollowUsComponent />
   <FooterComponent />
+  <div class="fd-margin-black"></div>
+
 </template>
 
 <script>
@@ -32,7 +34,7 @@
 
 <style lang="scss" scoped>
   .fd-margin-black{
-    height: 50px;
+    height: 5vh;
     background-color: black;
   }
 </style>
