@@ -5,8 +5,8 @@
         </div>
         <div>
             <ul class="d-flex align-items-center justify-content-center gap-5 list-unstyled  ">
-                <li class="text-uppercase fw-bold text-black" v-for="(link, index) in links" :key="index">
-                    <a href="#" class="text-decoration-none text-black">{{ link.name }}</a>
+                <li v-for="(link, index) in links" :key="index">
+                    <a href="#">{{ link.name }}</a>
                 </li>
             </ul>
         </div>
@@ -55,6 +55,7 @@
 </script>
 
 <style lang="scss" scoped>
+@use '../assets/styles/partials/variables' as *;
     .container {
         height: 100px;
     }
@@ -62,10 +63,28 @@
     img{
         width: 80px;
         height: 80px;
+        &:hover {
+            filter: invert(1);
+            cursor: pointer;
+        }
     }
 
     ul {
         line-height: 100px;
+    }
+
+    li {
+        font-weight: bolder;
+        color: gray;
+        font-size: 12px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(41, 40, 40);
+        &:hover {
+            color: $maincolor;
+        }
     }
 
 </style>

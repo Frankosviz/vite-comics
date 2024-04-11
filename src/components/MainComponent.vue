@@ -65,12 +65,20 @@ export default {
 }
 
 img {
-    width: 50px;
+    width: 40px;
     height: 50px;
+    &:hover {
+        filter: invert(1);
+        cursor: pointer;
+    }
 }
 
 p {
     color: white;
     margin: 0 auto;
+    &:hover {
+        filter: invert(1);
+        cursor: pointer;
+    }
 }
 </style>

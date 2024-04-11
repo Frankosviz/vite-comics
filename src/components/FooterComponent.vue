@@ -76,6 +76,11 @@ export default {
     border: 2px solid $maincolor;
     padding: 10px 10px;
     margin: auto 0;
+
+    &:hover {
+        background-color: $maincolor;
+        color: white;
+    }
 }
 
 li {
@@ -86,6 +91,10 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover {
+        background-color: white;
+        cursor: pointer;
+    }
 }
 
 a {
@@ -96,5 +105,9 @@ h2 {
     color: $maincolor;
     font-size: 20px;
     margin: auto 0;
+    &:hover {
+        color: white;
+        cursor: pointer;
+    }
 }
 </style>

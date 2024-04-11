@@ -170,12 +170,21 @@ h2 {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
+    font-weight: bold;
+    &:hover {
+        color: $maincolor;
+        cursor: pointer;
+    }
 }
 
 img {
     position: absolute;
     right: 0;
     top: -80px;
+
+    &:hover {
+        filter: invert(1);
+    }
 }
 
 .cropped {
@@ -195,5 +204,9 @@ a {
     color: $textcolor;
     font-weight: normal;
     font-size: 13px;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 </style>
