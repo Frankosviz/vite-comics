@@ -103,6 +103,7 @@ img {
     width: 150px;
     height: 150px;
     &:hover {
+        filter:saturate(2.5);
         cursor: pointer;
     }
 }

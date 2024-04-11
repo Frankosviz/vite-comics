@@ -1,16 +1,16 @@
 <template>
-  <div class="fd-margin-black"></div>
   <HeaderComponent/>
+  <HeroComponent />
   <ContentComponent />
   <MainComponent />
   <FollowUsComponent />
   <FooterComponent />
-  <div class="fd-margin-black"></div>
 
 </template>
 
 <script>
   import HeaderComponent from './components/HeaderComponent.vue'
+  import HeroComponent from './components/HeroComponent.vue'
   import ContentComponent from './components/ContentComponent.vue'
   import MainComponent from './components/MainComponent.vue'
   import FollowUsComponent from './components/FollowUsComponent.vue'
@@ -19,6 +19,7 @@
     name: 'App',
     components: {
       HeaderComponent,
+      HeroComponent,
       ContentComponent,
       MainComponent,
       FollowUsComponent,
@@ -33,8 +34,4 @@
 </script>
 
 <style lang="scss" scoped>
-  .fd-margin-black{
-    height: 50px;
-    background-color: black;
-  }
 </style>
