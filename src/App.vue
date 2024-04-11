@@ -34,7 +34,7 @@
 
 <style lang="scss" scoped>
   .fd-margin-black{
-    height: 5vh;
+    height: 50px;
     background-color: black;
   }
 </style>

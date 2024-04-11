@@ -51,16 +51,17 @@ export default {
     }
 }
 </script>
-
+<!-- Cambiare tutte le altezze in pixel e non piu vh -->
 <style lang="scss" scoped>
+@use '../assets/styles/partials/variables' as *;
 .fd-style {
-    height: 15vh;
-    background-color: #0282F9;
+    height: 150px;
+    background-color: $maincolor;
 }
 
 .container {
-    height: 15vh;
-    background-color: #0282F9;
+    height: 150px;
+    background-color: $maincolor;
 }
 
 img {

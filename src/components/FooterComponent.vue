@@ -17,7 +17,7 @@
 
 <style lang="scss" scoped>
     .fd-footer-style{
-        height: 10vh;
+        height: 100px;
         background-color: #303030;
     }
 </style>

@@ -19,15 +19,15 @@ export default {
 
 <style lang="scss" scoped>
 .fd-height {
-    height: 10vh;
+    height: 100px;
 }
 .container {
-    height: 10vh;
+    height: 100px;
     background-color: black;
 }
 
 p {
-    line-height: 10vh;
+    line-height: 100px;
     color: white;
     font-size: 30px;
 }
