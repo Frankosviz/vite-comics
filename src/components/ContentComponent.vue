@@ -62,12 +62,4 @@ export default {
         cursor: pointer;
     }
 }
-
-// .fd-height {
-//     height: 500px;
-// }
-// .container {
-//     height: 500px;
-//     background-color: black;
-// }
 </style>
